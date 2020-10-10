@@ -1,0 +1,22 @@
+!!! XML
+%PlasticCardRequest
+  %Credentials
+    %MerchantId= "#{Rails.application.secrets.merchant_id}"
+    %TerminalId= "#{Rails.application.secrets.terminal_id}"
+    %TerminalPassword= "#{Rails.application.secrets.terminal_password_sha}"
+  %TransactionId= "#{}"
+  %TransactionType= LC101
+  %IdentificationType= "#{@identification_type}"
+  %IdentificationValue= "#{@identification}"
+  %Email="#{@email}"
+  %Title="#{@title}"
+  %FirstName= "#{@first_name}"
+  %LastName= "#{@last_name}"
+  %DOB= "#{@birth_date}"
+  %Address1="#{@address1}"
+  %Address2="#{@address2}"
+  %PostalCode="#{@postalcode}"
+  %City="#{City}"
+  %State="#{}"
+  %Country="#{}"
+  %

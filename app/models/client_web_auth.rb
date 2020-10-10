@@ -1,0 +1,3 @@
+class ClientWebAuth < ApplicationRecord
+  
+end

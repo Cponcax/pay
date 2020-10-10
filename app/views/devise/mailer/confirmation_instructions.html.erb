@@ -1,0 +1,25 @@
+<section>
+  <div>
+      <img style="margin: auto; display: block;" src="http://toolboxsv.com/dev/datapaga/logo.png" alt="">
+  </div>
+  <div style="min-height: 200px; max-width: 600px; text-align: justify; margin: auto; padding: 25px 0px;">
+  <p>Confirma tu cuenta de DataPaga</p>
+    <p>¡Hola!</p>
+
+    <p>Para mejorar tu experiencia, verifica la dirección de correo electrónico asociada a tu cuenta de DataPaga.</p>
+
+    <p>Puedes hacerlo a través del siguiente link:</p>
+
+    <p><%= link_to 'Confirma tu cuenta', confirmation_url(@resource, confirmation_token: @token), style: "color: red" %></p>
+
+    <p>Si no te has registrado recientemente en DataPaga, o no has solicitado verificar tu dirección de correo electrónico, ponte en contacto con nosotros</p>
+
+    <p>Gracias por tu tiempo</p>
+
+    <p>DataPaga</p>
+  </div>
+  <footer style="background-color: #f5f5f5 ; height: 100px;  text-align: center; padding-top: 10px; color: #868181 ;">
+      <p>Si tienes alguna duda, ponte en contacto con DataPaga a través del correo electrónico support@datapaga.com.</p>
+      <p>DataPaga, Inc. 2017</p>
+  </footer>
+</section>

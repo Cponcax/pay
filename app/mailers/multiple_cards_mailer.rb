@@ -1,0 +1,2 @@
+class MultipleCardsMailer < ApplicationMailer
+end

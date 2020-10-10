@@ -1,0 +1,25 @@
+<section>
+  <div>
+      <img style="margin: auto; display: block;" src="http://toolboxsv.com/dev/datapaga/logo.png" alt="">
+  </div>
+  <div style="min-height: 200px; max-width: 600px; text-align: justify; margin: auto; padding: 25px 0px;">
+    <h1>Nuevas tarjetas creadas</h1>
+   <table>
+     <tr>
+       <th>Id de la tarjeta</th>
+       <th>Saldo</th>
+     </tr>
+   <% @cards.each do |card| %>
+     <tr>
+       <td><%= card.card_id %></td>
+       <td><%= card.balance %></td>
+     </tr>
+   <% end %>
+   </table>
+    <p>DataPaga</p>
+  </div>
+  <footer style="background-color: #f5f5f5 ; height: 100px;  text-align: center; padding-top: 10px; color: #868181 ;">
+      <p>Questions? Contacts DataPaga Suport</p>
+      <p>DataPaga, Inc. 2017</p>
+  </footer>
+</section>
